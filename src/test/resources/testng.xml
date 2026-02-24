@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="REST API CSV Automation Suite" verbose="1" parallel="false">
+    <listeners>
+        <listener class-name="com.automation.api.reporting.TestNGListener"/>
+    </listeners>
+
+    <test name="CSV API Tests">
+        <classes>
+            <class name="com.automation.api.tests.CsvApiTest"/>
+        </classes>
+    </test>
+</suite>
+
